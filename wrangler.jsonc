@@ -1,7 +1,7 @@
 {
 	    "name": "manatee-bros",
 	    "compatibility_date": "2025-11-29",
-		"main":"00_html/index.html",
+		"main":"00_html",
 	    "assets": {
 	      "directory": "./"
 	    }
