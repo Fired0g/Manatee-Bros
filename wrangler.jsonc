@@ -2,6 +2,6 @@
 	    "name": "manatee-bros",
 	    "compatibility_date": "2025-11-29",
 	    "assets": {
-	      "directory": "./00_html"
+	      "directory": "./"
 	    }
 }
