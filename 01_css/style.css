@@ -1,13 +1,15 @@
-header {
+header
+{
     text-align: center;
 }
 
-.manatee#landing {
-    height: 20%;
-    width: 20%;
+.manatee#landing
+{
+    height: 500px;
+    width: 500px;
     display: block;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: auto;
 }
