@@ -1,81 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html lang = "en-US">
-    <head>        
-        <meta charset = "utf-8">
+    <head>
+        <!--TITLE-->        
         <title>Manatee Controls</title>
-        <base href = "https://www.manatee-bros.com/index.html">>
-        <!-- if you know, you know -->
+        <!--META-->
+        <meta charset = "utf-8">
         <meta name = "author" content = "Dansen Wang">
-        <meta name = "descriptions" content = "soon to be manatee bro llc">
+        <meta name = "descriptions" content = "My technical notes and blog">
         <meta name = "keywords" content = "EPMS,Power Monitoring,DIS,Electrical Power Monitoring Systems">
-
+        <meta name = "color-scheme" content = "light dark">
         <meta name = "viewport" content = "width=device-width, industrial-scale=1">
-
-        <link rel = "stylesheet" title = "pageStyle" href="./01_css/style.css" type = "text/css">
+        <!--Assets-->
         <link rel = "icon" type = "image/x-icon" href = "./10_images/favicon.jpeg">
-        
-        <!-- Primary Script for initial landing page -->
+        <!--CSS-->
+        <link rel = "stylesheet" title = "pageStyle" href="./01_css/style.css" type = "text/css">
+        <!-- SCRIPTS-->
         <script language = "javascript" type = "text/javascript" SRC = "./02_js/main.js"></script>
     </head>
-    <body>
-        <header class = "pageLayout__header">
-            <nav class = "navigation">
-                <div class = "navigation__logo">
-                    
+    <body id = "home">
+        <header id = "navigation" class = "pageLayout__header">
+            <div class = "navigation_row">
+                <div class = "navigation_home_logo">
+                    <a></a>
                 </div>
-                <div class = "navigation__menu">
-                    <nav class = "menu">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </nav>
-                </div>
-                <div class = "navigation__search">
-
-                </div> 
-            </nav>
+                <nav class = "navigation_bar">
+                    <ul class = "navigation_items">
+                        <li class = "navigation_items-dropdown_toggle" onmouseenter="">
+                            Learn
+                        </li>
+                        <li class = "navigation_items-dropdown_toggle" onmouseenter="">
+                            References
+                        </li>
+                        <li class = "navigation_items-dropdown_toggle" onmouseenter="">
+                            Tools
+                        </li>
+                        <li class = "navigation_items-dropdown_toggle" onmouseenter="">
+                            Demos
+                        </li>
+                        <li class = "navigation_items-dropdown_toggle" onmouseenter="">
+                            About
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class = "navigation_search">
+                <input class = "navigation_search_bar" type = "search" name = "q" placeholder = "Search this site" required = "" aria-label="Search this site">
+            </div>
             <h1 title = "Electrical Power Manatoring System">The Manatee Bros</h1>
-            <aside> in development... </aside>
-            <img class = "manatee" id = "landing" src = "/10_images/manatee.jpg" alt = "Manatee Image Here">    
+            <aside> in development... </aside>    
         </header>
         <main>
             <img class = "manatee" id = "landing" src = "./10_images/manatee.jpg" alt = "Manatee Image Here">
             
             
-            <section id = "section 1">
-                <h3>This is within a section</h3>
+            <section id = "landing_introduction">
+                <h1>Resources for EPMS Integrators<br>by EPMS Integrators</h1>
+                <h2>Documenting all things electrical</h2>
                 <p>
-                    Section number 1
+                    Onboarding continues to be a challenge in this odd sections of the integrator industry, where the old analog world clashes
+                    with the new digital age. This site is dedicated to sharing knowledge and expertise around electrical power monitoring, and aims
+                    to ease the pain for all road warriors alike.
+                </p>
+                <h2>Why Manatee Bros</h2>
+                <p>
+                    Why manatees? They are known for their gentle and peaceful nature, and are suspiciously close to the word "monitor" when you've had 
+                    your two corporate sponsored entertainment drinks for the night. After a night out slurring "I design maniteering systems", the Manatee
+                    Bros were born.
                 </p>
             </section>
-            
-            <section id = "section 2">
-                <h3>This is within a second section</h3>
-                <p>
-                    Section number 2
-                </p>
-            </section>
-
-            <section id = "section 3">
-                <h3>This is a third section</h3>
-                <p>
-                    Section number 3
-                </p>
-            </section>
-            <section>
-                <h3>This is a fourth section</h3>
-                <p>
-                    Section number 400000    
-                </p>
+            <section id = "landing_changelogs">
+                <h1>Recent Changes</h1>
+                <ol>
+                   <li>
+                        <h2>12-12-2025</h2>
+                        <p>
+                            initialization of the webpage, and the encapsulation of all content under cloudflare DDOS protection.
+                            Basic HTML codes were written, pending CSS and Typescript integration.
+                        </p>
+                   </li> 
+                </ol>
             </section>
         </main>
         <footer>
             <p>Copyright &copy; 2024 Manatee Bros. All rights reserved.</p>
-        </footer>    
+        </footer>   
     </body>
 </html>
